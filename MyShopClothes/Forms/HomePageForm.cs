@@ -16,5 +16,10 @@ namespace MyShopClothes.App.Forms
 		{
 			InitializeComponent();
 		}
+
+		private void FuncA(object sender, EventArgs e)
+		{
+
+		}
 	}
 }
