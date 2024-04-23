@@ -15,6 +15,9 @@ namespace MyShopClothes.App.Forms
 		public LoginForm()
 		{
 			InitializeComponent();
+
+			CheckLogin("hung","123");
+			ShowMess(true);
 		}
 
 		private bool CheckLogin(string user, string pass)
