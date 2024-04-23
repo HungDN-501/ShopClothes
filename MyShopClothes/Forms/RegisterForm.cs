@@ -16,5 +16,10 @@ namespace MyShopClothes.App.Forms
 		{
 			InitializeComponent();
 		}
+
+		private bool CheckEmail ()
+		{
+			return true;
+		} 
 	}
 }
