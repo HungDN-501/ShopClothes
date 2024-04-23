@@ -1,0 +1,38 @@
+# ================ #
+# Ensign generated #
+# ================ #
+
+/syncensignclient.txt
+/*/bin/**
+/*/obj/**
+/packages/**
+
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+
+/bin/**
+/obj/**
+$tf/
+.vs/
+*.svd
+*.userprefs
+*.pidb
+*.user
+*.suo
+*.unityproj
+*.booproj
+ 
+# ============ #
+# OS generated #
+# ============ #
+
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+/init.sql
