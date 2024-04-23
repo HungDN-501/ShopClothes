@@ -23,5 +23,10 @@ namespace MyShopClothes.App.Forms
 				return true;
 			return false;
 		}
+
+		private void ShowMess (bool result)
+		{
+			MessageBox.Show("Known", "Info");
+		}
 	}
 }
