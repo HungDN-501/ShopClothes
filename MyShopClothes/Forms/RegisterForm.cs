@@ -21,5 +21,10 @@ namespace MyShopClothes.App.Forms
 		{
 			return true;
 		} 
+
+		private bool CheckPhone ()
+		{
+			return false;
+		}
 	}
 }
