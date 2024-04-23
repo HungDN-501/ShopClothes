@@ -1,5 +1,3 @@
-using MyShopClothes.App.Forms;
-
 namespace MyShopClothes
 {
 	internal static class Program
