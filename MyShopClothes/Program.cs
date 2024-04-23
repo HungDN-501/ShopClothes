@@ -14,6 +14,8 @@ namespace MyShopClothes
 			// see https://aka.ms/applicationconfiguration.
 			ApplicationConfiguration.Initialize();
 			Application.Run(new LoginForm());
+
+			// Hung Comment
 		}
 	}
 }
