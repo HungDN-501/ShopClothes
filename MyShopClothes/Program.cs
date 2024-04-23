@@ -13,7 +13,10 @@ namespace MyShopClothes
 			// To customize application configuration such as set high DPI settings or default font,
 			// see https://aka.ms/applicationconfiguration.
 			ApplicationConfiguration.Initialize();
-			Application.Run(new LoginForm());
+
+			var formStart = new LoginForm();
+
+			Application.Run(formStart);
 
 			// Hung Comment
 		}

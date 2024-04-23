@@ -16,5 +16,13 @@ namespace MyShopClothes.App.Forms
 		{
 			InitializeComponent();
 		}
+
+		private void RegesterEvent(object sender, EventArgs e)
+		{
+			string user = "hung";
+			string pass = "123456";
+			int phone = 912342345;
+			string address = "Ha Noi";
+		}
 	}
 }

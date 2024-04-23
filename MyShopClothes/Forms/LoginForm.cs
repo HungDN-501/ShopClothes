@@ -16,5 +16,11 @@ namespace MyShopClothes.App.Forms
 		{
 			InitializeComponent();
 		}
+
+		private void LoginEvent(object sender, EventArgs e)
+		{
+			string user = "hung";
+			string pass = "123456";
+		}
 	}
 }
