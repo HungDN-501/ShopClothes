@@ -16,6 +16,7 @@ namespace MyShopClothes
 			Application.Run(new LoginForm());
 
 			// Hung Comment
+			// This is My Login Page
 		}
 	}
 }
