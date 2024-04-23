@@ -15,6 +15,8 @@ namespace MyShopClothes.App.Forms
 		public RegisterForm()
 		{
 			InitializeComponent();
+			CheckEmail();
+			CheckPhone();
 		}
 
 		private bool CheckEmail ()
