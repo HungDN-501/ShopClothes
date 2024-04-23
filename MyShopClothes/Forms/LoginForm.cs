@@ -15,6 +15,21 @@ namespace MyShopClothes.App.Forms
 		public LoginForm()
 		{
 			InitializeComponent();
+
+			CheckLogin("hung","123");
+			ShowMess(true);
+		}
+
+		private bool CheckLogin(string user, string pass)
+		{
+			if(user == "admin" && pass == "123456")
+				return true;
+			return false;
+		}
+
+		private void ShowMess (bool result)
+		{
+			MessageBox.Show("Known", "Info");
 		}
 
 		private void LoginEvent(object sender, EventArgs e)
