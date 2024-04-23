@@ -16,5 +16,12 @@ namespace MyShopClothes.App.Forms
 		{
 			InitializeComponent();
 		}
+
+		private bool CheckLogin(string user, string pass)
+		{
+			if(user == "admin" && pass == "123456")
+				return true;
+			return false;
+		}
 	}
 }
