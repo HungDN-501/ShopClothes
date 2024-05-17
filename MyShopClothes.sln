@@ -5,7 +5,9 @@ VisualStudioVersion = 17.9.34714.143
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyShopClothes.App", "MyShopClothes\MyShopClothes.App.csproj", "{CBE4AE8F-772F-4DAD-81DD-2EF4771773F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopClothes.Database", "ShopClothes.Database\ShopClothes.Database.csproj", "{B330243C-CF5E-4EF8-962B-E0368E8FAB39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopClothes.Database", "ShopClothes.Database\ShopClothes.Database.csproj", "{B330243C-CF5E-4EF8-962B-E0368E8FAB39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopClothes.MOD", "ShopClothes.MOD\ShopClothes.MOD.csproj", "{49FB63B3-C15F-46BE-8C53-E6837CE696A0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{B330243C-CF5E-4EF8-962B-E0368E8FAB39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B330243C-CF5E-4EF8-962B-E0368E8FAB39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B330243C-CF5E-4EF8-962B-E0368E8FAB39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49FB63B3-C15F-46BE-8C53-E6837CE696A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49FB63B3-C15F-46BE-8C53-E6837CE696A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49FB63B3-C15F-46BE-8C53-E6837CE696A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49FB63B3-C15F-46BE-8C53-E6837CE696A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
